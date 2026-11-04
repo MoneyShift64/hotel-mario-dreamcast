@@ -64,13 +64,13 @@ Build 36 includes:
 
 The build reads the game's files from your disc image (into `extracted/`), prepares
 the game image (in `work/`), converts its data and movies for the Dreamcast (into
-`dc/data/`), compiles the game and makes **`dc/hotel_mario_test.cdi`**. Run
+`dc/data/`), compiles the game and makes **`dc/hotel-mario-dreamcast.cdi`**. Run
 `bash tools/check_pc.sh` after asset conversion to exercise the host tests.
 
 ## Running
 
-- **Real Dreamcast:** copy `dc/hotel_mario_test.cdi` to your GDEMU (or burn it to a CD-R).
-- **Emulator:** open `dc/hotel_mario_test.cdi` in [Flycast](https://github.com/flyinghead/flycast).
+- **Real Dreamcast:** copy `dc/hotel-mario-dreamcast.cdi` to your GDEMU (or burn it to a CD-R).
+- **Emulator:** open `dc/hotel-mario-dreamcast.cdi` in [Flycast](https://github.com/flyinghead/flycast).
 
 ## Controls
 
