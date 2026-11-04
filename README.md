@@ -23,10 +23,10 @@ with the original stages, enemies, bosses, menus, music, sound effects and cutsc
 
 Build 36 includes:
 
-- The hotel campaign, including upper rooms, boss stages and the ending.
+- The hotel campaign, including upper rooms, and boss stages.
 - One-player and two-player modes, a demo and a high-score table.
-- Full Dreamcast controller mapping, and the standard soft reset.
-- VMU saving for game progress and high scores, with a Mario save icon.
+- Full Dreamcast controller mapping.
+- VMU saving for game progress and high scores.
 - Two optional cheats activated with the Dreamcast controller.
 
 ## Requirements
@@ -74,14 +74,14 @@ the game image (in `work/`), converts its data and movies for the Dreamcast (int
 
 ## Controls
 
-| Button | In a stage |
+| Button | Gameplay |
 |---|---|
-| D-pad left / right | Move |
-| D-pad up / down | Use lifts |
+| D-Pad Left / Right | Move |
+| D-Pad Up / Down | Use Lifts |
 | A | Jump |
-| B | Open or close doors |
+| B | Open or Close Doors |
 | X | Run |
-| Y | Use the fire flower |
+| Y | Use the Fire Flower |
 | Start | Pause (Resume / Hotel Map / Return to Title) |
 
 Hold **A + B + X + Y + Start** together to go back to the title screen.
@@ -99,8 +99,8 @@ Hold a trigger when selecting **1 Player** on the main menu. Then choose **New**
 
 | Button | Cheat |
 |---|---|
-| Left trigger | Mario is invincible and can still pick up items, stomp enemies and fire fireballs. |
-| Right trigger | The stage timer starts at 500. |
+| Left Trigger | Mario is invincible and can still pick up items, stomp enemies and fire fireballs. |
+| Right Trigger | The stage timer starts at 500 (instead of 200). |
 
 ## Layout
 
