@@ -1,5 +1,5 @@
 #!/bin/bash
-# Build the Hotel Mario Dreamcast test: hotel_mario_test.cdi
+# Build the Hotel Mario Dreamcast test: hotel-mario-dreamcst.cdi
 # Needs KallistiOS with SH4ZAM (kos-ports) and mkdcdisc, like the other projects.
 #     bash dc/build_dc.sh
 set -e
@@ -17,7 +17,7 @@ if [ ! -f data/stage_1_01.tex ]; then
 fi
 PORTS_DIR=${KOS_PORTS:-/opt/toolchains/dc/kos-ports}
 mkdir -p build disc/data
-rm -f hotel_mario_test.elf hotel_mario_test.cdi
+rm -f hotel_mario_test.elf hotel-mario-dreamcst.cdi
 OBJS=""
 for f in hm_plat_dc.c movie.c movie_audio.c doors.c world.c light_regions.c lifts.c stage_features.c secrets.c frontend.c persistence.c demo.c vmu_store_dc.c campaign.c mario.c fx.c sound.c obj_*.c test_main.c; do
     o=build/$(basename "${f%.c}").o
@@ -27,5 +27,5 @@ done
 kos-cc -o hotel_mario_test.elf $OBJS -L"$PORTS_DIR/lib" -lsh4zam -lz -lm
 cp data/* disc/data/
 M=$(command -v mkdcdisc || find "$HOME/dreamcast-tools" "$HOME/dreamcast-projects" /opt /usr/local -name mkdcdisc -type f 2>/dev/null | head -1)
-"$M" -e hotel_mario_test.elf -D disc -n "HOTEL MARIO" -o hotel_mario_test.cdi --allow-overwrite
-ls -la hotel_mario_test.cdi
+"$M" -e hotel_mario_test.elf -D disc -n "HOTEL MARIO" -o hotel-mario-dreamcst.cdi --allow-overwrite
+ls -la hotel-mario-dreamcst.cdi
