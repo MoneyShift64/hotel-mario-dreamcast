@@ -21,8 +21,6 @@ This port was written with the assistance of AI. Many hours of human testing wer
 The CD-i game's own code, decompiled and translated to C, running natively on the Dreamcast,
 with the original stages, enemies, bosses, menus, music, sound effects and cutscenes.
 
-Build 36 includes:
-
 - The hotel campaign, including upper rooms, and boss stages.
 - One-player and two-player modes, a demo and a high-score table.
 - Full Dreamcast controller mapping.
